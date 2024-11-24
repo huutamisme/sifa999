@@ -28,8 +28,8 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className="w-full shadow-lg">
-            <div className="container mx-auto px-6 py-4 flex justify-between items-center text-white bg-background">
+        <nav className="flex justify-center w-full bg-background">
+            <div className="container px-6 py-4 flex justify-between items-center text-white">
                 {/* Desktop menu */}
                 <ul className="font-semibold hidden lg:flex w-full justify-center">
                     {navItem.map((item, index) => (
