@@ -31,15 +31,15 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
     ];
 
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center">
             <Slider {...settings} className="w-full max-w-4xl">
                 {banners.map((banner, index) => (
-                    <div key={index} className="flex justify-center items-center">
+                    <div key={index}>
                         <Image
                             src={banner}
                             alt={`Banner ${index + 1}`}
                             width={980}
-                            height={500}
+                            height={100}
                         />
                     </div>
                 ))}
