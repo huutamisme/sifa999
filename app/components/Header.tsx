@@ -2,7 +2,7 @@ import { FaEnvelope, FaPhoneAlt, FaFax } from 'react-icons/fa';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 const Header: React.FC = () => {
     return (
-        <header className='flex flex-row justify-between px-4 py-12 items-center overflow-hidden'>
+        <div className='flex flex-row justify-between px-4 py-12 items-center overflow-hidden'>
             <h1 className='font-georgia text-background font-semibold text-4xl'>CÔNG TY TNHH HÓA MỸ PHẨM SINH PHÁT</h1>
             <div className='flex space-x-4'>
                 <div className='border border-black rounded-full w-fit p-2 tooltip tooltip-bottom'
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
                 </div>
             </div>
 
-        </header>
+        </div>
     );
 }
 export default Header;

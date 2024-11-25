@@ -15,7 +15,7 @@ const navItem: NavItem[] = [
 ]
 const Footer: React.FC = () => {
     return (
-        <footer>
+        <div>
             <div className="px-10 py-4 bg-gray-900 text-white text-lg md:text-3xl space-y-4">
                 <ul className="font-semibold hidden lg:flex w-full justify-center">
                     {navItem.map((item, index) => (
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                     </p>
                 </aside>
             </div>
-        </footer>
+        </div>
     );
 }
 
