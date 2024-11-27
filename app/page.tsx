@@ -4,7 +4,7 @@ import BestSellingProducts from "./components/BestSellingProducts";
 export default function Home() {
   return (
     <NavLayout>
-      <div className="flex justify-center md:justify-start items-baseline px-10 ">
+      <div className="flex justify-center md:justify-start items-baseline">
         <span className="text-2xl md:text-4xl font-bold mr-4 text-background">Giới thiệu</span>
         <div className="hidden md:flex flex-grow border-t-4 border-background"></div>
       </div>
@@ -14,7 +14,7 @@ export default function Home() {
         Đến năm 2010 sản phẩm Sifa999 được công nhận là hàng Việt Nam chất lượng cao,
         năm 2012 tiếp tục được cấp chứng nhận là thương hiệu mạnh và phát triển bền vững.
       </p>
-      <div className="flex justify-center md:justify-start items-baseline px-10 ">
+      <div className="flex justify-center md:justify-start items-baseline ">
         <span className="text-2xl md:text-4xl font-bold mr-4 text-background">Sản phẩm bán chạy</span>
         <div className="hidden md:flex flex-grow border-t-4 border-background"></div>
       </div>

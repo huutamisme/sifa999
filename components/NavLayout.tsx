@@ -18,7 +18,7 @@ export default function NavLayout({ children }: Readonly<{ children: React.React
                 <aside className="w-1/5">
                     <Listing />
                 </aside>
-                <section className="w-4/5">
+                <section className="w-4/5 px-4">
                     {children}
                 </section>
             </main>
