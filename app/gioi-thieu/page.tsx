@@ -6,7 +6,7 @@ const About: React.FC = () => {
         <NavLayout>
             <h2 className="text-4xl text-background font-bold text-center">Giới thiệu</h2>
             {introductions.map((introduction, index) => (
-                <div className="collapse collapse-arrow my-6 shadow-lg" key={index}>
+                <div className="collapse collapse-arrow my-6 shadow-lg border border-2" key={index}>
                     {/* Sử dụng defaultChecked nếu index = 0 */}
                     <input type="checkbox" name="statsgroup" defaultChecked={index === 0} />
                     <div className="collapse-title text-2xl font-semibold text-background">
