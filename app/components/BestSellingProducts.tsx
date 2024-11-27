@@ -24,7 +24,7 @@ const products: Products[] = [
 
 const BestSellingProducts: React.FC = () => {
     return (
-        <div className="space-y-5 px-10">
+        <div className="space-y-5 px-10 py-4">
             {products.length === 0 ? (
                 <h2 className="text-3xl text-center text-customBlue">Không có sản phẩm nào!</h2>
             ) : (
