@@ -2,12 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
-
-
-interface NavItem {
-    name: string,
-    href: string
-}
+import { NavItem } from '@/types';
 
 const navItem: NavItem[] = [
     { name: "Trang chủ", href: "/" },

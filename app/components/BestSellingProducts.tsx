@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { products } from "./ProductsData";
+import { products } from "./ProductData";
 
 const BestSellingProducts: React.FC = () => {
     return (
