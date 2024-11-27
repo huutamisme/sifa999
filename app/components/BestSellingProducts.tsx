@@ -1,26 +1,5 @@
 import Image from "next/image"
-
-interface Products {
-    id: number,
-    img: string,
-    name: string,
-    price: number
-}
-
-const products: Products[] = [
-    {
-        id: 1,
-        img: "/banner1.jpg",
-        name: "hello",
-        price: 70000
-    },
-    {
-        id: 2,
-        img: "/banner1.jpg",
-        name: "hi",
-        price: 85000
-    },
-]
+import { products } from "./ProductsData";
 
 const BestSellingProducts: React.FC = () => {
     return (

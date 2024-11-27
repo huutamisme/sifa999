@@ -1,4 +1,6 @@
-export const AboutData = [
+import { Introduction } from "@/types";
+
+export const introductions: Introduction[] = [
     {
         title: "Giới thiệu sơ bộ về công ty",
         content: [
