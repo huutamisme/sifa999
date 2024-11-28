@@ -1,14 +1,20 @@
 import Image from "next/image"
-import { BSProducts } from "./BSProductData";
+import { Products } from "../san-pham/ProductData";
+import { Product } from "@/types";
 
 const BestSellingProducts: React.FC = () => {
+
+    const hotProducts: Product[] = Products.filter(
+        (product) => product.badge === "hot"
+    );
+
     return (
         <div className="space-y-5 px-10 py-4">
-            {BSProducts.length === 0 ? (
+            {hotProducts.length === 0 ? (
                 <h2 className="text-3xl text-center text-red-500">Chưa có sản phẩm</h2>
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 relative">
-                    {BSProducts.map((product) => (
+                    {hotProducts.map((product) => (
                         <div key={product.id} className="card bg-base-100 shadow-xl flex items-center border border-2">
                             <div className="card-body flex items-center text-black">
                                 <div className="card-title text-center flex items-center justify-center min-h-[50px]">

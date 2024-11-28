@@ -38,7 +38,7 @@ const TypeProduct: React.FC = () => {
                                         />
                                     </figure>
                                     <div className="flex items-center justify-center px-10 py-2 min-h-[50px]">
-                                        <strong>Giá: {product.price.toLocaleString('vi-vn')}</strong>
+                                        <strong>Giá: {product.price.toLocaleString('vi-vn')} VNĐ</strong>
                                     </div>
                                 </div>
                             </div>

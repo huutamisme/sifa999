@@ -1,15 +1,5 @@
 import Link from "next/link";
-
-interface SubCategory {
-    name: string;
-    href: string;
-}
-
-interface Category {
-    name: string;
-    href: string;
-    subCategories?: SubCategory[];
-}
+import { Category } from "@/types";
 
 const categories: Category[] = [
     { name: "Chất Thông Cống, WC", href: "/chat-thong-cong-wc" },

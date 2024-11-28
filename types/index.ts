@@ -1,6 +1,7 @@
 export type Product = {
     id: number,
     type: string,
+    badge?: string,
     img: string,
     name: string,
     price: number
@@ -22,4 +23,15 @@ export type Distributor = {
     name: string,
     address: string,
     phoneNumber: string,
+}
+
+type SubCategory = {
+    name: string;
+    href: string;
+}
+
+export type Category = {
+    name: string;
+    href: string;
+    subCategories?: SubCategory[];
 }
