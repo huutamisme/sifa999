@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Product } from "@/types";
+import Link from "next/link";
 
 interface ProductListProps {
     products: Product[];
@@ -34,7 +35,8 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                 <>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 relative">
                         {paginatedProducts.map((product) => (
-                            <div
+                            <Link
+                                href={`./${product.name}`}
                                 key={product.id}
                                 className="card bg-base-100 shadow-xl flex items-center border border-2"
                             >
@@ -57,7 +59,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                                         </strong>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                     {products.length >= 9 ? (
