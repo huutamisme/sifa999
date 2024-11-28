@@ -16,7 +16,7 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
         draggable: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow: <NextArrow margin={margin} />,
@@ -24,10 +24,10 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
     };
 
     const banners: string[] = [
-        "/banner1.jpg",
-        "/banner2.jpg",
-        "/banner3.jpg",
-        "/banner4.jpg",
+        "/Banner/banner1.jpg",
+        "/Banner/banner2.jpg",
+        "/Banner/banner3.jpg",
+        "/Banner/banner4.jpg",
     ];
 
     return (
@@ -39,7 +39,8 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
                             src={banner}
                             alt={`Banner ${index + 1}`}
                             width={980}
-                            height={100}
+                            height={500}
+                            priority={index === 0}
                         />
                     </div>
                 ))}
