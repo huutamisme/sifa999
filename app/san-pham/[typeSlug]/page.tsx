@@ -21,5 +21,4 @@ const TypeProduct: React.FC = () => {
         </NavLayout>
     );
 };
-
 export default TypeProduct;

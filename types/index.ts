@@ -4,7 +4,9 @@ export type Product = {
     badge?: string,
     img: string,
     name: string,
-    price: number
+    price: number,
+    volume: string,
+    description: string
 };
 
 export type Introduction = {

@@ -60,24 +60,28 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                             </div>
                         ))}
                     </div>
-                    <div className="flex justify-center items-center space-x-3 mt-5">
-                        <button
-                            className={`btn text-white ${currentPage === 1 ? "btn-disabled" : "bg-background"}`}
-                            onClick={() => handlePageChange(currentPage - 1)}
-                        >
-                            Trang trước
-                        </button>
-                        <span className="text-xl">
-                            Trang {currentPage} / {totalPages}
-                        </span>
-                        <button
-                            className={`btn text-white ${currentPage === totalPages ? "btn-disabled" : "bg-background"
-                                }`}
-                            onClick={() => handlePageChange(currentPage + 1)}
-                        >
-                            Trang sau
-                        </button>
-                    </div>
+                    {products.length >= 9 ? (
+                        <div className="flex justify-center items-center space-x-3 mt-5">
+                            <button
+                                className={`btn text-white ${currentPage === 1 ? "btn-disabled" : "bg-background"}`}
+                                onClick={() => handlePageChange(currentPage - 1)}
+                            >
+                                Trang trước
+                            </button>
+                            <span className="text-xl">
+                                Trang {currentPage} / {totalPages}
+                            </span>
+                            <button
+                                className={`btn text-white ${currentPage === totalPages ? "btn-disabled" : "bg-background"
+                                    }`}
+                                onClick={() => handlePageChange(currentPage + 1)}
+                            >
+                                Trang sau
+                            </button>
+                        </div>
+                    ) :
+                        ''
+                    }
                 </>
             )}
         </div>

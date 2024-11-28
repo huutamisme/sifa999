@@ -10,5 +10,4 @@ const Product: React.FC = () => {
         </NavLayout>
     );
 };
-
 export default Product;
