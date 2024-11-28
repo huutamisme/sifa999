@@ -7,11 +7,11 @@ interface NavItem {
 
 const navItem: NavItem[] = [
     { name: "Trang chủ", href: "/" },
-    { name: "Giới thiệu", href: "/about" },
-    { name: "Sản phẩm", href: "/products" },
-    { name: "Nhà phân phối", href: "/distributor" },
-    { name: "Tuyển dụng", href: "/recruitment" },
-    { name: "Liên hệ", href: "/contact" },
+    { name: "Giới thiệu", href: "/gioi-thieu" },
+    { name: "Sản phẩm", href: "/san-pham" },
+    { name: "Nhà phân phối", href: "/nha-phan-phoi" },
+    { name: "Tuyển dụng", href: "/tuyen-dung" },
+    { name: "Liên hệ", href: "/lien-he" },
 ]
 const Footer: React.FC = () => {
     return (

@@ -53,14 +53,14 @@ const Listing: React.FC = () => {
                         {category.subCategories && category.subCategories.length > 0 ? (
                             <details>
                                 <summary>
-                                    <Link href={category.href}>
+                                    <Link href={`san-pham/${category.href}`}>
                                         {category.name}
                                     </Link>
                                 </summary>
                                 <ul>
                                     {category.subCategories.map((subCategory, subIndex) => (
                                         <li key={subIndex}>
-                                            <Link href={subCategory.href}>
+                                            <Link href={`san-pham/${subCategory.href}`}>
                                                 {subCategory.name}
                                             </Link>
                                         </li>
@@ -68,7 +68,7 @@ const Listing: React.FC = () => {
                                 </ul>
                             </details>
                         ) : (
-                            <Link href={category.href}>
+                            <Link href={`san-pham/${category.href}`}>
                                 {category.name}
                             </Link>
                         )}

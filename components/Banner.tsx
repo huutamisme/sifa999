@@ -39,7 +39,7 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
                             src={banner}
                             alt={`Banner ${index + 1}`}
                             width={980}
-                            height={500}
+                            height={300}
                             priority={index === 0}
                         />
                     </div>
