@@ -1,7 +1,3 @@
-import { Product } from "@/types";
-import { Products } from "./san-pham/ProductData";
-import { convertToSlug } from "./lib/Convertor";
-
 export const productType: Record<string, string> = {
   "chat-thong-cong-wc": "Chất thông cống, WC",
   "khu-mui": "Khử mùi",
@@ -30,24 +26,6 @@ export const metadataConfig = {
           title: `${vietnameseType} | CÔNG TY TNHH SX HÓA MỸ PHẨM SINH PHÁT`,
           description: `Khám phá các sản phẩm thuộc loại ${vietnameseType}.`,
       };
-  },
-  "/san-pham/[typeSlug]/[productSlug]": (productSlug: string, typeSlug: string) => {
-    const dataSource: Product[] = Products as Product[];
-
-    // Lọc các sản phẩm theo `typeSlug`
-    const filteredProductsByType: Product[] = dataSource.filter(
-      (product) => product.type === typeSlug
-    );
-
-    // Tìm sản phẩm cụ thể
-    const selectedProduct: Product | undefined = filteredProductsByType.find(
-      (product) => convertToSlug(product.name) === productSlug
-    );
-
-    return {
-      title: `${selectedProduct?.name || "Sản phẩm không tồn tại"}`,
-      description: `Thông tin chi tiết về sản phẩm ${selectedProduct?.name || "không tồn tại"}.`,
-    };
   },
   "/nha-phan-phoi": {
     title: "Nhà phân phối | CÔNG TY TNHH SX HÓA MỸ PHẨM SINH PHÁT",

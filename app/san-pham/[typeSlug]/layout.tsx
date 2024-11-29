@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { metadataConfig } from "@/app/metadata";
 
 export async function generateMetadata({ params }: { params: { typeSlug: string } }): Promise<Metadata> {
-    const { typeSlug } = params;
+    const { typeSlug } = await params;
+
 
     // Sử dụng metadataConfig để tạo metadata
     const metadataFn = metadataConfig["/san-pham/[typeSlug]"];
