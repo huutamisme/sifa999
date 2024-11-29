@@ -21,8 +21,8 @@ const Navbar: React.FC = () => {
                 {/* Desktop menu */}
                 <ul className="font-semibold hidden lg:flex w-full justify-center space-x-6">
                     {navItem.map((item, index) => (
-                        <div key={index} className="flex items-center">
-                            <li className="flex items-center justify-center w-full">
+                        <li key={index} className="flex items-center">
+                            <div className="flex items-center justify-center w-full">
                                 <Link
                                     href={item.href}
                                     passHref
@@ -30,9 +30,9 @@ const Navbar: React.FC = () => {
                                 >
                                     {item.name}
                                 </Link>
-                            </li>
+                            </div>
                             {index < navItem.length - 1 && <span className="text-2xl mx-2">/</span>}
-                        </div>
+                        </li>
                     ))}
                 </ul>
 
