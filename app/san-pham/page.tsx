@@ -1,6 +1,9 @@
 import ProductList from "./components/ProductList";
 import NavLayout from "@/components/NavLayout";
 import { Products } from "./ProductData";
+import { metadataConfig } from "@/app/metadata";
+
+export const metadata = metadataConfig["/san-pham"];
 
 const Product: React.FC = () => {
     return (

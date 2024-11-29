@@ -1,5 +1,8 @@
 import NavLayout from "@/components/NavLayout";
 import { introductions } from "./AboutData";
+import { metadataConfig } from "@/app/metadata";
+
+export const metadata = metadataConfig["/gioi-thieu"];
 
 const About: React.FC = () => {
     return (

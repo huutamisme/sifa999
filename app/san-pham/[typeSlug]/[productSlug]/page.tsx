@@ -6,6 +6,7 @@ import { Product } from "@/types";
 import { Products } from "../../ProductData";
 import ProductList from "../../components/ProductList";
 import Image from "next/image";
+import { convertToSlug } from "@/app/lib/Convertor";
 
 const DetailProduct: React.FC = () => {
     const { typeSlug, productSlug } = useParams();
@@ -65,21 +66,5 @@ const DetailProduct: React.FC = () => {
         </NavLayout>
     );
 };
-
 export default DetailProduct;
 
-function convertToSlug(input: string): string {
-    const nonAccentVietnamese = input
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/đ/g, "d")
-        .replace(/Đ/g, "D");
-
-    const slug = nonAccentVietnamese
-        .toLowerCase()
-        .replace(/[^a-zA-Z0-9\s-]/g, "")
-        .trim()
-        .replace(/\s+/g, "-");
-
-    return slug;
-}

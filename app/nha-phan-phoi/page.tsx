@@ -3,6 +3,9 @@ import Image from "next/image";
 import { distributors } from "./DistributorData";
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
+import { metadataConfig } from "@/app/metadata";
+
+export const metadata = metadataConfig["/nha-phan-phoi"];
 
 const Distributor: React.FC = () => {
     return (

@@ -2,6 +2,9 @@ import NavLayout from "@/components/NavLayout";
 import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import ContactForm from "./components/ContactForm";
+import { metadataConfig } from "@/app/metadata";
+
+export const metadata = metadataConfig["/lien-he"];
 
 const Contact: React.FC = () => {
     return (

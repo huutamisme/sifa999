@@ -1,4 +1,7 @@
 import NavLayout from "@/components/NavLayout";
+import { metadataConfig } from "@/app/metadata";
+
+export const metadata = metadataConfig["/tuyen-dung"];
 
 const Recruitment: React.FC = () => {
     return (
