@@ -21,8 +21,8 @@ const Footer: React.FC = () => {
             <div className="px-6 md:px-10 py-4 bg-gray-900 text-white text-base sm:text-lg md:text-3xl space-y-4">
                 <ul className="font-semibold flex flex-wrap justify-center">
                     {navItem.map((item, index) => (
-                        <div key={index} className="flex items-center">
-                            <li >
+                        <li key={index} className="flex items-center">
+                            <div>
                                 <Link
                                     href={item.href}
                                     passHref
@@ -30,13 +30,13 @@ const Footer: React.FC = () => {
                                 >
                                     {item.name}
                                 </Link>
-                            </li>
+                            </div>
                             {index < navItem.length - 1 && (
                                 <span className="hidden md:flex mx-1 sm:mx-2 text-sm sm:text-lg lg:text-xl">
                                     /
                                 </span>
                             )}
-                        </div>
+                        </li>
                     ))}
                 </ul>
 

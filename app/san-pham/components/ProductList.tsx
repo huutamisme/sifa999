@@ -48,7 +48,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                                     <figure className="flex items-center justify-center h-[200px] w-full">
                                         <Image
                                             src={product.img}
-                                            alt={`Product ${product.id} image`}
+                                            alt={`Product image ${product.id}`}
                                             width={250}
                                             height={150}
                                             className="object-contain h-full"
