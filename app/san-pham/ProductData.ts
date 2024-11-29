@@ -304,7 +304,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/1.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 1",
         price: 179000,
         volume: "100ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -314,7 +314,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/2.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 2",
         price: 750000,
         volume: "1000ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -323,7 +323,7 @@ export const Products: Product[] = [
         id: 36,
         type: "Nước rửa tay diệt khuẩn",
         img: "/Product/NRTDK/3.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 3",
         price: 120000,
         volume: "100ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -333,7 +333,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/4.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 4",
         price: 120000,
         volume: "100ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -353,7 +353,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/6.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 5",
         price: 59000,
         volume: "100ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -363,7 +363,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/7.png",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 6",
         price: 205000,
         volume: "1000ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -373,7 +373,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/8.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 7",
         price: 105000,
         volume: "500ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -383,7 +383,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/9.png",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 8",
         price: 105000,
         volume: "150ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -393,7 +393,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/10.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 9",
         price: 70000,
         volume: "120g",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -403,7 +403,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/11.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 10",
         price: 750000,
         volume: "5000ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -412,7 +412,7 @@ export const Products: Product[] = [
         id: 45,
         type: "Nước rửa tay diệt khuẩn",
         img: "/Product/NRTDK/12.jpg",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 11",
         price: 59000,
         volume: "1000ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
@@ -422,7 +422,7 @@ export const Products: Product[] = [
         type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/13.png",
-        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
+        name: "Dung dịch rửa tay khô Green Care Dry Hand Wash 12",
         price: 259000,
         volume: "1000ml",
         description: "Dung dịch rữa tay khô Green Care Dry Hand Wash được sản xuất theo công thức của tổ chức y tế thế giới WHO khuyên dùng. Để phòng ngừa các loại virut và viêm phổi trong đó có Virut. Xịt vào tay ( không rữa lại bằng nước) và xoa lên trực tiếp trước và sau khi ăn, khi đi vệ sinh xong, khi chăm sóc người bệnh, sau khi xì mũi, ho hoặc hắt hơi, sau khi thay tả hoặc vệ sinh cho trẻ và người già, sau khi chạm vào động vật, thức ăn gia xúc như: da mặt, bàn tay, cổ. Phòng ngừa muỗi hoặc côn trùng"
