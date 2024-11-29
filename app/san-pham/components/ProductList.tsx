@@ -37,7 +37,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 relative">
                         {paginatedProducts.map((product) => (
                             <Link
-                                href={`/san-pham/${product.type}/${convertToSlug(product.name)}`}
+                                href={`/san-pham/${convertToSlug(product.type)}/${convertToSlug(product.name)}`}
                                 key={product.id}
                                 className="card bg-base-100 shadow-xl flex items-center border border-2"
                             >

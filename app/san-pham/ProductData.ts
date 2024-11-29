@@ -3,7 +3,7 @@ import { Product } from "@/types"
 export const Products: Product[] = [
     {
         id: 1,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/1.jpg",
         name: "Nước vi sinh Bicro Phốt SiFa999",
         price: 105000,
@@ -12,7 +12,7 @@ export const Products: Product[] = [
     },
     {
         id: 2,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/2.jpg",
         name: "Chuyên gia tẩy ố toilet win pink SiFa999",
         price: 45000,
@@ -21,7 +21,7 @@ export const Products: Product[] = [
     },
     {
         id: 3,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/3.jpg",
         name: "Nước thông cống siêu mạnh SiFa999",
         price: 90000,
@@ -30,7 +30,7 @@ export const Products: Product[] = [
     },
     {
         id: 4,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/4.jpg",
         name: "Bột thông cầu Bicrophot SiFa999",
         price: 48000,
@@ -39,7 +39,7 @@ export const Products: Product[] = [
     },
     {
         id: 5,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/5.jpg",
         name: "Chai bột chống tắc nghẽn wc SiFa999 cao cấp",
         price: 139000,
@@ -48,7 +48,7 @@ export const Products: Product[] = [
     },
     {
         id: 6,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/6.jpg",
         name: "Bột thông cống SiFa999",
         price: 48000,
@@ -57,7 +57,7 @@ export const Products: Product[] = [
     },
     {
         id: 7,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         img: "/Product/CTCVS/7.jpg",
         name: "Nước tẩy rửa toilet hằng ngày thông minh SiFa999",
         price: 32000,
@@ -66,7 +66,7 @@ export const Products: Product[] = [
     },
     {
         id: 8,
-        type: "chat-thong-cong-wc",
+        type: "Chất thông cống, WC",
         badge: "hot",
         img: "/Product/CTCVS/8.jpg",
         name: "Nước thông cống siêu nhanh SiFa999 xuất khẩu",
@@ -76,7 +76,7 @@ export const Products: Product[] = [
     },
     {
         id: 9,
-        type: "khu-mui",
+        type: "Khử mùi",
         img: "/Product/KM/1.jpg",
         name: "Nước xịt phòng 2 trong 1 SiFa999",
         price: 55000,
@@ -85,7 +85,7 @@ export const Products: Product[] = [
     },
     {
         id: 10,
-        type: "khu-mui",
+        type: "Khử mùi",
         img: "/Product/KM/2.jpg",
         name: "Khử mùi lợi khuẩn SiFa999 - deodorant",
         price: 105000,
@@ -94,7 +94,7 @@ export const Products: Product[] = [
     },
     {
         id: 11,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/1.jpg",
         name: "Chất tẩy rửa đa năng SiFa999",
         price: 45000,
@@ -103,7 +103,7 @@ export const Products: Product[] = [
     },
     {
         id: 12,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/2.jpg",
         name: "Chất tẩy rửa đa năng SiFa999",
         price: 45000,
@@ -112,7 +112,7 @@ export const Products: Product[] = [
     },
     {
         id: 13,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/3.jpg",
         name: "Vệ sinh tẩy trắng lồng máy giặt SiFa999",
         price: 115000,
@@ -121,7 +121,7 @@ export const Products: Product[] = [
     },
     {
         id: 14,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/4.jpg",
         name: "Nước tẩy đa năng thông minh SiFa999",
         price: 69000,
@@ -130,7 +130,7 @@ export const Products: Product[] = [
     },
     {
         id: 15,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/5.jpg",
         name: "Nước tẩy gạch cao cấp SiFa999 xuất khẩu",
         price: 85000,
@@ -139,7 +139,7 @@ export const Products: Product[] = [
     },
     {
         id: 16,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/6.jpg",
         name: "Nước tẩy xi măng chết cao cấp SiFa999 đa năng",
         price: 115000,
@@ -148,7 +148,7 @@ export const Products: Product[] = [
     },
     {
         id: 17,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/7.jpg",
         name: "Nước lau bếp đa năng SiFa999",
         price: 30000,
@@ -157,7 +157,7 @@ export const Products: Product[] = [
     },
     {
         id: 18,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/8.jpg",
         name: "Nước lau nhà 3 trong 1 SiFa999 - kháng khuẩn",
         price: 49000,
@@ -166,7 +166,7 @@ export const Products: Product[] = [
     },
     {
         id: 19,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/9.jpg",
         name: "Nước lau nhà 3 trong 1 SiFa999 - kháng khuẩn SiFa999",
         price: 115000,
@@ -175,7 +175,7 @@ export const Products: Product[] = [
     },
     {
         id: 20,
-        type: "chat-tay-rua",
+        type: "Chất tẩy rửa",
         img: "/Product/CTR/10.jpg",
         name: "Nước lau tường nhà thông minh SiFa999",
         price: 89000,
@@ -184,7 +184,7 @@ export const Products: Product[] = [
     },
     {
         id: 21,
-        type: "nuoc-giat-ui-quan-ao",
+        type: "Nước giặt, ủi quần áo",
         img: "/Product/NGUQA/1.jpg",
         name: "Nước giặt và xả quần áo cao cấp đa năng 3 trong 1 SiFa999",
         price: 149000,
@@ -193,7 +193,7 @@ export const Products: Product[] = [
     },
     {
         id: 22,
-        type: "nuoc-giat-ui-quan-ao",
+        type: "Nước giặt, ủi quần áo",
         img: "/Product/NGUQA/2.jpg",
         name: "Nước tẩy trắng javel cao cấp hương táo đa năng SiFa999",
         price: 105000,
@@ -202,7 +202,7 @@ export const Products: Product[] = [
     },
     {
         id: 23,
-        type: "dau-lam-bong",
+        type: "Dầu làm bóng",
         img: "/Product/DLB/1.jpg",
         name: "Dầu bóng gỗ đa năng ngừa mối mọt SiFa999",
         price: 69000,
@@ -211,7 +211,7 @@ export const Products: Product[] = [
     },
     {
         id: 24,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/1.jpg",
         name: "Nước lau kính đa năng SiFa999",
         price: 48000,
@@ -220,7 +220,7 @@ export const Products: Product[] = [
     },
     {
         id: 25,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/2.jpg",
         name: "Nước rửa kính ô tô SiFa999",
         price: 125000,
@@ -229,7 +229,7 @@ export const Products: Product[] = [
     },
     {
         id: 26,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/3.jpg",
         name: "Nước kính ô tô siêu đậm đặc 3 trong 1 SiFa999",
         price: 125000,
@@ -238,7 +238,7 @@ export const Products: Product[] = [
     },
     {
         id: 27,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/4.jpg",
         name: "Dầu bóng dưỡng vỏ siêu bóng SiFa999",
         price: 108000,
@@ -247,7 +247,7 @@ export const Products: Product[] = [
     },
     {
         id: 28,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/5.jpg",
         name: "Dầu bóng dưỡng vỏ siêu đặc SiFa999",
         price: 108000,
@@ -256,7 +256,7 @@ export const Products: Product[] = [
     },
     {
         id: 29, 
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/6.jpg",
         name: "Dầu bóng nội thất xe cao cấp SiFa999",
         price: 105000,
@@ -265,7 +265,7 @@ export const Products: Product[] = [
     },
     {
         id: 30,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/7.jpg",
         name: "Nước rửa xe ô tô mô tô đa năng SiFa999",
         price: 125000,
@@ -274,7 +274,7 @@ export const Products: Product[] = [
     },
     {
         id: 31,
-        type: "san-pham-cho-oto",
+        type: "Sản phẩm cho Oto",
         img: "/Product/SPCO/8.jpg",
         name: "Nước tẩy rửa block máy đa năng SiFa999",
         price: 65000,
@@ -283,7 +283,7 @@ export const Products: Product[] = [
     },
     {
         id: 32,
-        type: "men-vi-sinh",
+        type: "Men vi sinh",
         img: "/Product/MVS/1.jpg",
         name: "Men vi sinh xử lý hầm cầu chống hôi SiFa999",
         price: 48000,
@@ -292,7 +292,7 @@ export const Products: Product[] = [
     },
     {
         id: 33,
-        type: "men-vi-sinh",
+        type: "Men vi sinh",
         img: "/Product/MVS/2.jpg",
         name: "Men vi sinh xử lý hồ tôm và thủy sản SiFa999",
         price: 139000,
@@ -301,7 +301,7 @@ export const Products: Product[] = [
     },
     {
         id: 34,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/1.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -311,7 +311,7 @@ export const Products: Product[] = [
     },
     {
         id: 35,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/2.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -321,7 +321,7 @@ export const Products: Product[] = [
     },
     {
         id: 36,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         img: "/Product/NRTDK/3.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
         price: 120000,
@@ -330,7 +330,7 @@ export const Products: Product[] = [
     },
     {
         id: 37,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/4.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -340,7 +340,7 @@ export const Products: Product[] = [
     },
     {
         id: 38,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/5.jpg",
         name: "Gel rửa tay khô Green Care Dry Hand Wash",
@@ -350,7 +350,7 @@ export const Products: Product[] = [
     },
     {
         id: 39,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/6.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -360,7 +360,7 @@ export const Products: Product[] = [
     },
     {
         id: 40,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/7.png",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -370,7 +370,7 @@ export const Products: Product[] = [
     },
     {
         id: 41, 
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/8.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -380,7 +380,7 @@ export const Products: Product[] = [
     },
     {
         id: 42,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/9.png",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -390,7 +390,7 @@ export const Products: Product[] = [
     },
     {
         id: 43,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/10.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -400,7 +400,7 @@ export const Products: Product[] = [
     },
     {
         id: 44,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/11.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
@@ -410,7 +410,7 @@ export const Products: Product[] = [
     },
     {
         id: 45,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         img: "/Product/NRTDK/12.jpg",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",
         price: 59000,
@@ -419,7 +419,7 @@ export const Products: Product[] = [
     },
     {
         id: 46,
-        type: "nuoc-rua-tay-diet-khuan",
+        type: "Nước rửa tay diệt khuẩn",
         badge: "hot",
         img: "/Product/NRTDK/13.png",
         name: "Dung dịch rửa tay khô Green Care Dry Hand Wash",

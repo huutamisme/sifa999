@@ -14,11 +14,11 @@ export default function NavLayout({ children }: Readonly<{ children: React.React
             <aside>
                 <Banner margin={10} />
             </aside>
-            <main className="flex">
-                <aside className="w-1/5">
+            <main className="flex flex-col lg:flex-row">
+                <aside className="w-full lg:w-1/5">
                     <Listing />
                 </aside>
-                <section className="w-4/5 px-4 mb-4">
+                <section className="w-full lg:w-4/5 px-4 mb-4">
                     {children}
                 </section>
             </main>

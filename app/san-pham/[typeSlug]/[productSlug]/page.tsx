@@ -15,7 +15,7 @@ const DetailProduct: React.FC = () => {
 
     // Lọc các sản phẩm theo `typeSlug`
     const filteredProductsByType: Product[] = dataSource.filter(
-        (product) => product.type === typeSlug
+        (product) => convertToSlug(product.type) === typeSlug
     );
 
     // Tìm selectedProduct
@@ -34,9 +34,10 @@ const DetailProduct: React.FC = () => {
             {selectedProduct ? (
                 <div
                     key={selectedProduct.id}
-                    className="card card-side bg-base-100 shadow-xl w-full border border-2 my-4 flex items-center h-[350px]"
+                    className="card bg-base-100 shadow-xl w-full border border-2 my-4 flex flex-col lg:flex-row items-center lg:items-start h-auto lg:h-[350px] overflow-hidden"
                 >
-                    <figure className="flex-shrink-0 w-[200px] h-full overflow-hidden">
+                    {/* Hình ảnh sản phẩm */}
+                    <figure className="flex-shrink-0 w-full lg:w-[200px] h-[200px] lg:h-full overflow-hidden">
                         <Image
                             src={selectedProduct.img}
                             alt="Product image"
@@ -45,22 +46,34 @@ const DetailProduct: React.FC = () => {
                             className="object-contain w-full h-full"
                         />
                     </figure>
-                    <div className="flex-grow overflow-hidden h-full p-6">
-                        <h3 className="text-4xl font-bold mb-4">{selectedProduct.name}</h3>
-                        <div><strong>Mã Số:</strong> {selectedProduct.id}</div>
-                        <div className="flex space-x-4">
-                            <strong>Giá Bán: </strong>{selectedProduct.price.toLocaleString("vi-vn")} VNĐ
-                            <p className="text-yellow-500 font-semibold">
-                                (đối với đối tác có mã số thành viên sẽ nhận được chính sách ưu đãi riêng)
+
+                    {/* Nội dung sản phẩm */}
+                    <div className="flex-grow overflow-hidden p-4 lg:p-6">
+                        <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 lg:mb-4">{selectedProduct.name}</h3>
+                        <div className="text-sm sm:text-base lg:text-lg mb-2">
+                            <strong>Mã Số:</strong> {selectedProduct.id}
+                        </div>
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-sm sm:text-base lg:text-lg mb-2">
+                            <div>
+                                <strong>Giá Bán: </strong>
+                                {selectedProduct.price.toLocaleString("vi-vn")} VNĐ
+                            </div>
+                            <p className="text-yellow-500 font-semibold mt-2 sm:mt-0">
+                                (Đối với đối tác có mã số thành viên sẽ nhận được chính sách ưu đãi riêng)
                             </p>
                         </div>
-                        <div><strong>Thể Tích Thực: </strong> {selectedProduct.volume}</div>
-                        <div>{selectedProduct.description}</div>
+                        <div className="text-sm sm:text-base lg:text-lg mb-2">
+                            <strong>Thể Tích Thực:</strong> {selectedProduct.volume}
+                        </div>
+                        <div className="text-sm sm:text-base lg:text-md">
+                            {selectedProduct.description}
+                        </div>
                     </div>
                 </div>
             ) : (
                 <p className="text-red-500 text-center">Không tìm thấy sản phẩm!</p>
             )}
+
             <h2 className="text-4xl text-background font-bold text-center">Sản phẩm cùng loại</h2>
             <ProductList products={relatedProducts} />
         </NavLayout>
