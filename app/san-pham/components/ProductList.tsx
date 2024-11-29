@@ -36,7 +36,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 relative">
                         {paginatedProducts.map((product) => (
                             <Link
-                                href={`./${product.name}`}
+                                href={`/san-pham/${product.type}/${convertToSlug(product.name)}`}
                                 key={product.id}
                                 className="card bg-base-100 shadow-xl flex items-center border border-2"
                             >
@@ -91,3 +91,19 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
 };
 
 export default ProductList;
+
+function convertToSlug(input: string): string {
+    const nonAccentVietnamese = input
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d")
+        .replace(/Đ/g, "D");
+
+    const slug = nonAccentVietnamese
+        .toLowerCase()
+        .replace(/[^a-zA-Z0-9\s-]/g, "")
+        .trim()
+        .replace(/\s+/g, "-");
+
+    return slug;
+}
