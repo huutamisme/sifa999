@@ -32,23 +32,23 @@ const Banner: React.FC<BannerProps> = ({ margin }) => {
 
     return (
         <div className="flex justify-center">
-            <Slider {...settings} className="w-full max-w-4xl">
+            <Slider {...settings} className="w-full max-w-4xl h-auto">
                 {banners.map((banner, index) => (
                     <div key={index}>
                         <Image
                             src={banner}
                             alt={`Banner ${index + 1}`}
-                            width={980}
-                            height={300}
-                            priority={index === 0}
+                            width={980}  // Set width to match the container
+                            height={330} // Set height to match the container's aspect ratio
+                            layout="responsive"  // Ensures the image is responsive
+                            priority={index === 0} // Prioritize the first image
+                            sizes="(max-width: 768px) 100vw, 980px" // Serve 100% width on smaller screens, 980px on larger
                         />
                     </div>
                 ))}
             </Slider>
         </div>
     );
-
-
 };
 
 export default Banner;
